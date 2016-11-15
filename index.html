@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            fieldset {
+                border: 1px solid grey;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+
+            label {
+                width: 150px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+    	    <div id="main">
+    		    <div id="container">
+    			    <div id="content" role="main">
+                        <!-- Your code should go here -->
+                        <h1><strong>Order Form</strong></h1>
+  <fieldset>
+                        <legend>General info</legend>
+                        <form>
+                          Email <input type="email"
+                          placeholder="youremail@"><br/>
+                          Login <input type="text" placeholder="Login"><br/>
+                          Password <input type="password"
+                          placeholder="Password"><br/>
+
+                        </form>
+
+</fieldset>
+<fieldset>
+                        <legend>User Info</legend>
+                        <form>
+                          <label>
+                            First name</label>
+                            <input type="text"
+                            name="name"
+                            placeholder="John"/>
+                        </form>
+                        <form>
+                          <label> Second name </label>
+                          <input type="text"
+                          placeholder="Doe"/>
+                        </form>
+
+                        <form>
+                          <label>Gender</label>
+                          <input type="checkbox"
+                          name="checkbox"
+                          value="checkbox1"
+                          checked>male
+                          <input type="checkbox"
+                          name="checkbox"
+                          value="checkbox2"
+                          >female
+                        </form>
+
+                        <form>
+                          <label>Age</label>
+                          <input name="age">
+                        </form>
+
+                        <form>
+                          <label>About me</label>
+                          <textarea name="textarea"
+                          cols="24" rows="3">
+                        </textarea>
+                          </form>
+</fieldset>
+          <fieldset>
+            <legend>Order info</legend>
+                        <form>
+                          <label>Product</label>
+                          <select name="phone">
+                          <option value="phone">iPhone </option>
+                        </select>
+
+
+                        </form>
+
+                        <form>
+                          <label>Front Color</label>
+                          <input type="radio"
+                          name="color1"
+                          value="myvalue1"
+                          checked>Black
+                          <input type="radio"
+                          name="color2"
+                          value="myvalue1">Pink
+                          <input type="radio"
+                          name="color3"
+                          value="myvalue1">Gold
+                          </form>
+
+                          <form>
+                            <label>Back-side color</label>
+                            Color: <input type="color">
+                          </form>
+
+                          <form>
+                            <label>Amount</label>
+                            <input type="number"
+                            placeholder="5">
+
+                          </form>
+                          <form>
+                            <label>Delivery date</label>
+                            <input type="number"
+                          placeholder  ="dd/mm/yyyy">
+                          </form>
+</fieldset>
+                          <form>
+                            <input type="reset"
+                            name="Reset"
+                            value="Reset">
+                            <input type="submit"
+                            name="Submit"
+                            value="Submit">
+                          </form>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
